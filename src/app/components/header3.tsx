@@ -25,13 +25,13 @@ export default function fango(){
             <Image src={logo} alt="Logo Cori" className="w-[106px] h-[46px] mt-[1rem] ml-[1rem]"></Image>
             </div>
             <div className="ml-[3.9rem]">
-                <button className="border-solid border-transparent text-white transition ease-in-out delay-75 border-2 border-white rounded-xl h-[3rem] mt-4 mr-6" id="1" name="home">
+                <button className="border-solid border-transparent text-white transition ease-in-out delay-75 border-2 hover:border-white rounded-xl h-[3rem] mt-4 mr-6" id="1" name="home" onClick={hom}>
                     &ensp;Home&ensp;
                 </button>
                 <button className="border-solid border-transparent text-white transition ease-in-out delay-75 border-2 hover:border-white rounded-xl h-[3rem] mt-4 mr-6" id="2" name="produtos" onClick={pro}>
                     &ensp;Produtos&ensp;
                 </button>
-                <button className="border-solid border-transparent text-white transition ease-in-out delay-75 border-2 hover:border-white rounded-xl h-[3rem] mt-4 mr-6" id="3" name="planos" onClick={pla}>
+                <button className="border-solid border-transparent text-white transition ease-in-out delay-75 border-2 border-white rounded-xl h-[3rem] mt-4 mr-6" id="3" name="planos">
                     &ensp;Planos&ensp;
                 </button>
             </div>
